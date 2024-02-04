@@ -10,7 +10,7 @@ export default function Navbar() {
     <header className=" bg-white md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src='./public/logo.png' alt='pornp logo' className='h-20'/>
+          <img src='./public/img/logo.png' alt='pornp logo' className='h-20'/>
           <span className="text-2xl font-semibold dark:text-white"></span>
         </a>
         <nav className="md:mr-auto md:ml-4 p-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base font-serif justify-center">
