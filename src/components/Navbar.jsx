@@ -36,7 +36,12 @@ export default function Navbar() {
              Login
           </a>
        </div>
-        <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
+      </div>
+    </header>
+  );
+}
+
+/*        <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
           <div className="container mx-auto">
             <div className="w-full bg-white/50 h-[66px] backdrop-blur-2x1 rounded-full max-w-[460px] mx-auto px-5 flex
             justify-between items-center text-2x1 text-white/50 ">           
@@ -55,9 +60,5 @@ export default function Navbar() {
             </div>
           </div>
         </nav>
-      </div>
-    </header>
-  );
-}
-
+*/
 

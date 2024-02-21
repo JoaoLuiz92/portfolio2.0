@@ -3,12 +3,14 @@ import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
 import Clients from './components/Clients';
+import Email from './components/email';
+import Footer from './components/Footer';
 
 
 
 function App() {
   return (
-    <main className=' bg-red-700'>
+    <main className=''>
        
         <div>
           <Nav/>
@@ -24,6 +26,12 @@ function App() {
         </div>
         <div>
           <Contact/>
+        </div>
+        <div>
+          <Email/>
+        </div>
+        <div>
+          <Footer/>
         </div>
 
    </main>
