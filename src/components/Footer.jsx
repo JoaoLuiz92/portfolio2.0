@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaInstagram } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 
 
@@ -11,10 +11,10 @@ const Footer = () => {
       <a href="https://www.instagram.com/proprinsulextintores/" target="_blank" rel="noopener noreferrer">
         <FaInstagram className='w-6 h-6' />
         </a>
-        <a href="https://www.instagram.com/seu_usuario/" target="_blank" rel="noopener noreferrer">
-        <CiLinkedin className='w-6 h-6' />
+        <a href="https://wa.me/555332255270" target="blank" rel="noopener noreferrer">
+        <FaWhatsapp className='w-6 h-6' />
         </a>
-        <a href="https://www.instagram.com/seu_usuario/" target="_blank" rel="noopener noreferrer">
+        <a to="https://www.facebook.com/proprinsulextintores" target="_blank" rel="noopener noreferrer">
         <CiFacebook className='w-6 h-6'/>
         </a>
       </div>

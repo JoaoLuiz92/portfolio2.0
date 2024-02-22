@@ -133,10 +133,9 @@ const Services = () => {
             Saiba Mais
           </button>
           </a> 
-          <a >
+          <a href='https://wa.me/555332255270' >
           <button
-            
-            className=" border-none rounded-lg items-center text-white bg-red-900 py-2 px-6 text-lg shadow-lg
+          className=" border-none rounded-lg items-center text-white bg-red-900 py-2 px-6 text-lg shadow-lg
              transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black hover:bg-white duration-500">
             Orçamento Gratuito
           </button>

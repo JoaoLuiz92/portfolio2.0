@@ -10,9 +10,9 @@ const About = () => {
     <section id="About" className='bg-red-700'>
     <div 
        className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center ">
-      <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center animate-fade">
-        <h1 className="title-font sm:text-4x1  text-3xl mb-4 font-medium text-white">
-          Somos a Proprinsul Extintores
+      <div className="lg:flex-grow font-serif md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center animate-fade">
+        <h1 className="title-font sm:text-4x1  text-3xl mb-4  text-white">
+          Somos a <span className='text-blue-950 font-bold font-serif'>Proprinsul Extintores</span>
           <br className="hidden lg:inline-block" />
           Especialistas em prevenção <br/>contra incêndios
         </h1>
