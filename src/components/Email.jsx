@@ -2,27 +2,27 @@ import React, { useState } from 'react';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
+    username: '',
     email: '',
     message: '',
   });
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,}))
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(name === "" || email === "" || message === ""){
+    if(formData.username === "" || formData.email === "" || formData.message === ""){
         alert('Preencha todos os campos corretamente');
         return;
     }
     console.log(formData);
         setFormData({
-      name: '',
+      username: '',
       email: '',
       message: '',
     });
@@ -44,8 +44,8 @@ const ContactForm = () => {
           type="text"
           id="name"
           placeholder='Digite Seu Nome'
-          name="name"
-          value={formData.name}
+          name="username"
+          value={formData.username}
           onChange={handleChange}
           className="w-full p-2 border rounded-md"
           required
