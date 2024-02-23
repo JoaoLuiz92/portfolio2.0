@@ -77,12 +77,9 @@ const Services = () => {
   }, []); 
 
 
-
-
-
-
   return (
-  <section id='Services' style={{ backgroundImage: 'linear-gradient(rgba(255,0,0,0.7), rgba(255,0,0,0.7)), url(./public/img/fire.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100%' }}>      <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center animate-fade'>
+  <section id='Services' style={{ backgroundImage: 'linear-gradient(rgba(255,0,0,0.7), rgba(255,0,0,0.7)), url(./public/img/fire.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100%' }}>
+    <div className='container mx-auto flex flex-col px-5 py-16 md:flex-row items-center text-center'>
       <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <p className=' title-font sm:text-4x1 text-[30px] mb-4 pb-8 font-medium text-white' id="sv2">
           Nossos Serviços

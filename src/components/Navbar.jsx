@@ -13,18 +13,18 @@ export default function Navbar() {
           <img src='./public/img/logo.png' alt='pornp logo' className='h-20'/>
           <span className="text-2xl font-semibold dark:text-white"></span>
         </a>
-        <nav className="md:mr-auto md:ml-4 p-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base font-serif justify-center">
-          <a href="#About" className="  p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg  hover:border-red-700">
+        <nav className="md:mr-auto md:ml-4 p-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base font-serif justify-center">
+          <a href="#About" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
             Quem Somos
           </a>
-          <a href="#Services" className="  p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
+          <a href="#Services" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
             Serviços
           </a>
-          <a href="#Clients" className="  p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700 ">
+          <a href="#Clients" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
             
             Clientes
           </a>
-          <a href="#Clients" className="  p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700 ">
+          <a href="#Clients" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
             
             Contato
           </a>
