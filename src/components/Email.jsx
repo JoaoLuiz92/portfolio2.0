@@ -5,7 +5,11 @@ import { useForm, ValidationError } from '@formspree/react';
 function ContactForm() {
   const [state, handleSubmit] = useForm("xwkgbepz");
   if (state.succeeded) {
-      return <p className='text-red-700 text-[20px] font-serif text-center ' > Obrigado pelo seu contato! Proprinsul Extintores</p>;
+      return <p className='text-[20px] font-serif text-center '
+      style={{
+        color:'rgb(0, 53, 96)'
+      }}
+      > Obrigado pelo seu contato! Proprinsul Extintores</p>;
   }
   return (
       <div className=' bg-blue-950'>
@@ -66,7 +70,8 @@ function ContactForm() {
         />
         </div>
         <button type="submit" disabled={state.submitting}
-        className=" text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800 mb-4"  
+        className=" text-white p-2 rounded-md hover:bg-blue-600 focus:outline
+        -none focus:shadow-outline-blue active:bg-blue-800 mb-4"  
         style={{
           background:'rgb(0, 53, 96)'
         }}

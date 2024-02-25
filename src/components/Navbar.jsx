@@ -29,7 +29,7 @@ export default function Navbar() {
             Contato
           </a>
         </nav>
-        <div className="flex justify-between ">
+        <div className="items-center flex-box justify-end">
         <a href="https://wa.me/555332255270"
          target="blank" 
          rel="noopener noreferrer"
@@ -37,10 +37,11 @@ export default function Navbar() {
         <FaWhatsapp  className="w-10 h-10" style={{
           color: 'rgb(142, 22, 23)'
         }}/>
-        </a>
-        <p>
+                <p className="underline font-medium">
           Contato: (53) 3225-5270
                   </p>
+        </a>
+
        </div>
       </div>
     </header>
