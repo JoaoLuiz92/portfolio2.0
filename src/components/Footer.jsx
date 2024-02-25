@@ -22,7 +22,7 @@ const Footer = () => {
     <p className='font-serif font-bold text-center'>&copy; 2024 Proprinsul Ltda. Todos os direitos reservados.</p>
     
     <div className='flex flex-col justify-end items-center'>
-      <p className=' font-light text-end pr-6'>
+      <p className=' font-light text-end pr-6 pt-2'>
         Desenvolvedor João L. Da Rosa Jr
       </p>
       <div>

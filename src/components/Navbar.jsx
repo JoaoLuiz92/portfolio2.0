@@ -3,7 +3,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import {BiHomeAlt, BiUser } from 'react-icons/bi';
 import {BsClipboardData,BsBriefcase,BsChatSquare } from 'react-icons/bs';
-
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   return (
@@ -29,12 +29,18 @@ export default function Navbar() {
             Contato
           </a>
         </nav>
-        <div className="flex justify-center">
-          <a
-            href="#contact"
-            className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-             Login
-          </a>
+        <div className="flex justify-between ">
+        <a href="https://wa.me/555332255270"
+         target="blank" 
+         rel="noopener noreferrer"
+         >
+        <FaWhatsapp  className="w-10 h-10" style={{
+          color: 'rgb(142, 22, 23)'
+        }}/>
+        </a>
+        <p>
+          Contato: (53) 3225-5270
+                  </p>
        </div>
       </div>
     </header>

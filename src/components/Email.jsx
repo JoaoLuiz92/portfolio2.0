@@ -66,7 +66,10 @@ function ContactForm() {
         />
         </div>
         <button type="submit" disabled={state.submitting}
-        className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800 mb-4"  
+        className=" text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800 mb-4"  
+        style={{
+          background:'rgb(0, 53, 96)'
+        }}
         >
           Enviar Mensagem
         </button>
