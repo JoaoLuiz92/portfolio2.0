@@ -78,15 +78,18 @@ const Services = () => {
 
 
   return (
-  <section id='Services' style={{ backgroundImage: 'linear-gradient(rgba(255,0,0,0.7), rgba(255,0,0,0.7)), url(./public/img/fire.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100%' }}>
+  <section id='Services' style={{ 
+  backgroundImage: 'linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)), url(./public/img/bgservices.jpeg)', 
+  backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100%' 
+  }}>
     <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center animate-fade'>
       <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className=' title-font sm:text-4x1 text-[30px] mb-4 pb-8 font-medium text-white' id="sv2">
+        <p className=' title-font sm:text-4x1 text-[40px] mb-4 pb-8 font-medium text-white' id="sv2">
           Nossos Serviços
           </p>
           <div className='flex justify-normal'>
         <div className='flex'>
-         <span className=' text-[30px] text-white'><FaFire /></span>
+         <span className=' text-[30px] text-white pr-4 'id='sv3'><FaFire /></span>
         <p className='title-font sm:text-3x1 text-2xl mb-4 pb-4 font-medium text-white' id="sv3">
           Veja abaixo alguns de nossos serviços. Para consultar todos os serviços.
           </p>
@@ -125,14 +128,14 @@ const Services = () => {
           <div className=' pt-12 space-x-4 '>
           <a href='https://drive.google.com/file/d/1jgVz-fnkC2M-UTgcHklJ82GwkPCKx4Cl/view' target='blank'>
           <button
-            className="border-none rounded-lg items-center text-white bg-blue-900 py-2 px-6  p-4 text-lg shadow-lg
+            className="border-none rounded-lg font-sans items-center text-white bg-blue-900 py-2 px-6  p-4 text-lg shadow-lg
             transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black hover:bg-white duration-500">
             Saiba Mais
           </button>
           </a> 
           <a href='https://wa.me/555332255270' >
           <button
-          className=" border-none rounded-lg items-center text-white bg-red-900 py-2 px-6 text-lg shadow-lg
+          className=" border-none rounded-lg font-sans items-center text-white bg-red-900 py-2 px-6 text-lg shadow-lg
              transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-black hover:bg-white duration-500">
             Orçamento Gratuito
           </button>

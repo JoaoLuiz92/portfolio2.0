@@ -3,8 +3,12 @@ import ImageComponent from './ImageComponent'; // Certifique-se de ajustar o cam
 
 const App = () => {
   return (
-    <div className='flex flex-col items-center text-center align-top'>
-      <div className='flex w-screen items-center p-4 space-x-10 space-y-10 flex-wrap lg:flex-no-wrap justify-around mx-auto animate-fade'>
+    
+
+    <div className='flex flex-col items-center text-center align-top' style={{
+      background:'rgb(142, 22, 23)'
+    }}>
+      <div className='flex w-screen items-center rounded-md p-4 space-x-10 space-y-10 flex-wrap lg:flex-no-wrap justify-around mx-auto animate-fade'>
         <ImageComponent imagePath='./public/img/dp1.png' />
         <ImageComponent imagePath='./public/img/dp2.png' />
         <ImageComponent imagePath='./public/img/dp3.png' />
