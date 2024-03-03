@@ -1,46 +1,63 @@
 /* eslint-disable no-unused-vars */
 
 import React from "react";
-import {Link} from 'react-router-dom'
-import {BiHomeAlt, BiUser } from 'react-icons/bi'; 
-import {BsClipboardData,BsBriefcase,BsChatSquare } from 'react-icons/bs';
 import { FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 export default function Navbar() {
   return (
-    <header className=" bg-white md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center scroll-smooth">
-      <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src='./public/img/logo.png' alt='pornp logo' className='h-20'/>
-          <span className="text-2xl font-semibold dark:text-white"></span>
+    <header className="  md:static fixed top-0 z-10 w-full" style={{background:'rgb(5, 8, 22)'}}>
+      <div className="container mx-auto flex flex-wrap  flex-col md:flex-row items-center scroll-smooth">
+      <a href="#" className="flex items-center rtl:space-x-reverse">
+          <img src='./public/img/logo.png' alt='logo' className='h-28 mr-2'/>
+          <span className="text-4x1 font-semibold dark:text-white">
+            <p className="font-medium text-2x1">
+              Desenvolvedor <span className="" style={{color:'rgb(23, 173, 4)'}}>Fullstack</span>
+            </p>
+          </span>
         </a>
         <nav className="md:mr-auto md:ml-4 p-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base font-serif justify-center">
-          <a href="#About" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
-            Quem Somos
+          <a href="#About" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
+            Sobre Mim
           </a>
-          <a href="#Services" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
-            Serviços
+          <a href="#Services" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
+            Projetos
           </a>
-          <a href="#Clients" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
+          <a href="#Clients" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
             
-            Clientes
+            Experiências
           </a>
-          <a href="#Clients" className="p-2 hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg hover:border-red-700">
+          <a href="#Clients" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
             
             Contato
           </a>
         </nav>
-        <div className="items-center flex-box justify-end">
-        <a href="https://wa.me/555332255270"
+        <div className=" flex justify-around p-6 space-x-5">
+        <a href="https://wa.me/5553999037382"
          target="blank" 
          rel="noopener noreferrer"
          >
         <FaWhatsapp  className="w-10 h-10" style={{
-          color: 'rgb(142, 22, 23)'
+          color: 'rgb(23, 173, 4)'
         }}/>
-                <p className="underline font-medium">
-          Contato: (53) 3225-5270
-                  </p>
+        </a>
+        <a href="https://github.com/JoaoLuiz92"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+        <FaGithub   className="w-10 h-10" style={{
+          color: 'rgb(23, 173, 4)'
+        }}/>
+        </a>
+        <a href="https://www.linkedin.com/in/joão-luiz-da-rosa-junior-69889521b/"
+          target="blank"
+          rel="noopener noreferrer"
+        >
+        <FaLinkedinIn  className="w-10 h-10" style={{
+          color: 'rgb(23, 173, 4)'
+        }}/>
         </a>
 
        </div>
@@ -48,6 +65,8 @@ export default function Navbar() {
     </header>
   );
 }
+
+
 
 /*        <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
           <div className="container mx-auto">

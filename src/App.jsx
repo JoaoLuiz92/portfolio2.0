@@ -7,33 +7,20 @@ import Email from './components/email';
 import Footer from './components/Footer';
 
 
-
 function App() {
   return (
     <main >
        
-        <div>
-          <Nav/>
+              <Nav/>
+        <div className="main-content">
+              <About/>
+              <Services/>
+              <Clients/>
+              <Contact/>
+              <Email/>
+              <Footer/>
         </div>
-        <div>
-          <About/>
-        </div>
-        <div>
-          <Services/>
-        </div>
-        <div>
-          <Clients/>
-        </div>
-        <div>
-          <Contact/>
-        </div>
-        <div>
-          <Email/>
-        </div>
-        <div>
-          <Footer/>
-        </div>
-
+        <div style={{ height: '80px' }}></div>
    </main>
   )
 }
