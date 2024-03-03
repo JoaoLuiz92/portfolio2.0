@@ -95,32 +95,32 @@ const Clients = () => {
              <ul className=" flex justify-around " >
 
             <li className="flex justify-between text-center items-center" >
-              <div className=' rounded-full w-[20px] h-[200px]'style={{background:'rgb(142, 22, 23)'}} ></div>
+              <div className=' rounded-full w-[10px] h-[150px]'style={{background:'rgb(142, 22, 23)'}} ></div>
                 <div className='flex flex-col'>
-                  <span className='font-bold m-4 text-[30px] text-black w-full'>Áreas Regularizadas</span>
-                  <span className='font-medium text-black w-full text-[30px]'>{data.Area} m²</span>
+                  <span className='font-sans m-2 text-[30px] text-black w-full'>Áreas Regularizadas</span>
+                  <span className='font-medium text-black w-full text-[25px]'>{data.Area} m²</span>
                   </div>
               </li>
-                <li className="flex p-8 justify-between rounded-lg text-center items-center">
-                <div className='rounded-full w-[20px] h-[200px]'style={{background:'rgb(142, 22, 23)'}} ></div>
+                <li className="flex p-2 justify-between rounded-lg text-center items-center">
+                <div className='rounded-full w-[10px] h-[150px]'style={{background:'rgb(142, 22, 23)'}} ></div>
                 <div className='flex flex-col'>
-                  <span className='font-bold m-4 text-[30px] text-black w-full'>Treinamentos</span>
+                  <span className='font-sans m-4 text-[30px] text-black w-full'>Treinamentos</span>
                   <span className='font-medium text-black text-[25px]'>{data.Training}</span>
                 </div>
                 </li>
 
-                <li className="flex p-8 justify-between rounded-lg text-center items-center">
-                <div className='rounded-full w-[20px] h-[200px]'style={{background:'rgb(142, 22, 23)'}} ></div>
+                <li className="flex p-2 justify-between rounded-lg text-center items-center">
+                <div className='rounded-full w-[10px] h-[150px]'style={{background:'rgb(142, 22, 23)'}} ></div>
                 <div className='flex flex-col'>
-                  <span className='font-bold m-4 text-[30px] text-black w-full'>Recargas</span>
-                  <span className='font-medium text-black text-[25px]'>{data.Recharge}</span>
+                  <span className='font-sans m-4 text-[30px] text-black w-full'>Recargas</span>
+                  <span className=' font-medium text-black text-[20px]'>{data.Recharge}</span>
                 </div>
                 </li>
 
-                <li className="flex p-10 justify-between rounded-lg text-center items-center">
-                <div className='rounded-full w-[20px] h-[200px]'style={{background:'rgb(142, 22, 23)'}} ></div>
+                <li className="flex p-2 justify-between rounded-lg text-center items-center">
+                <div className='rounded-full w-[10px] h-[150px]'style={{background:'rgb(142, 22, 23)'}} ></div>
                 <div className='flex flex-col'>
-                  <span className='font-bold m-4 text-[30px] text-black w-full'>Cidades</span>
+                  <span className='font-sans m-4 text-[30px] text-black w-full'>Cidades</span>
                   <span className='font-medium text-black text-[25px]'>{data.Cities} </span>
                 </div>
                 </li>

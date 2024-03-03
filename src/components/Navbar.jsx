@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 
 import React from "react";
 import {Link} from 'react-router-dom'
-import {BiHomeAlt, BiUser } from 'react-icons/bi';
+import {BiHomeAlt, BiUser } from 'react-icons/bi'; 
 import {BsClipboardData,BsBriefcase,BsChatSquare } from 'react-icons/bs';
 import { FaWhatsapp } from "react-icons/fa";
 
