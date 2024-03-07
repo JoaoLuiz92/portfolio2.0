@@ -1,3 +1,4 @@
+import { color } from 'framer-motion'
 import React from 'react'
 
 
@@ -5,6 +6,7 @@ const About = () => {
 
   return (
     <section id="About" style={{
+      opacity:0.9,
       background:`url(../public/img/bkg.png) center/cover no-repeat fixed`
     }} >
     <div 
@@ -15,8 +17,8 @@ const About = () => {
        
         </h1>
 
-       <p className="mb-8 leading-relaxed font-sans text-white">
-       Olá,sou um entusiasta e profissional dedicado em fase de transição de carreira para a 
+       <p className="mb-8 leading-relaxed font-sans text-[20px] text-white">
+       Olá,sou um entusiasta e profissional da 
        área de Tecnologia da Informação. Minha jornada no mundo da tecnologia começou com uma paixão por criar soluções
        inovadoras e eficientes. Atualmente, meu conjunto de habilidades inclui expertise em diversas tecnologias,
        proporcionando uma base sólida para enfrentar desafios e contribuir para projetos inovadores.<br/>
@@ -37,7 +39,11 @@ const About = () => {
      </div>
       <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 animate-fade" id="imgAbout" >
         <img
-          className="object-cover object-center rounded origin-center "
+          className="object-cover object-center rounded-full border-4 origin-center "
+          style={{
+            border:'full',
+            borderColor:'green'
+          }}
           alt="hero"
           src="./public/img/aboutpicture.png"
           

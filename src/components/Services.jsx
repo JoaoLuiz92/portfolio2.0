@@ -7,7 +7,7 @@ import { FaBook } from "react-icons/fa";
 import { FaGear } from "react-icons/fa6";
 import { MdOutlineSettingsInputAntenna } from "react-icons/md";
 import { GiSolderingIron } from "react-icons/gi";
-import { FaFire } from "react-icons/fa";
+import { FaComputer } from "react-icons/fa6";
 import { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -78,20 +78,19 @@ const Services = () => {
 
 
   return (
-  <section id='Services' style={{ 
-  backgroundImage: 'linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)), url(./public/img/bgservices.jpeg)', 
-  backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '100%' 
+  <section id='Services' style={{
+    background:'rgb(1, 27, 2)'
   }}>
-    <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center animate-fade'>
+    <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center '>
       <div className="lg:flex-grow flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <p className=' title-font sm:text-4x1 text-[40px] mb-4 pb-8 font-medium text-white' id="sv2">
-          Nossos Serviços
+        <p className=' title-font sm:text-4x1 text-[40px] text-center mb-4 pb-8 font-medium text-white' id="sv2">
+          Projetos
           </p>
           <div className='flex justify-normal'>
         <div className='flex'>
-         <span className=' text-[30px] text-white pr-4 'id='sv3'><FaFire /></span>
+         <span className=' text-[30px] text-white pr-4 'id='sv3'><FaComputer /></span>
         <p className='title-font sm:text-3x1 text-2xl mb-4 pb-4 font-medium text-white' id="sv3">
-          Veja abaixo alguns de nossos serviços. Para consultar todos os serviços.
+          Veja abaixo alguns dos projetos desenvolvidos nesta caminhada !
           </p>
           </div>
           </div>

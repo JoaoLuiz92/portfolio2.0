@@ -1,21 +1,22 @@
 import Nav from './components/Navbar';
-import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
-import Clients from './components/Clients';
+import { ProjectList } from './components/Clients';
 import Email from './components/email';
 import Footer from './components/Footer';
+import Services from './components/Services';
+
 
 
 function App() {
   return (
-    <main >
+    <main style={{background:'rgb(5, 8, 22)'}} >
        
               <Nav/>
         <div className="main-content">
               <About/>
+              <ProjectList/>
               <Services/>
-              <Clients/>
               <Contact/>
               <Email/>
               <Footer/>
