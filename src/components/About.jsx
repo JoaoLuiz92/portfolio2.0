@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="About" style={{
       opacity:0.9, 
-      background:`url(../public/img/bkg.png) center/cover no-repeat fixed`
+      background:`url(../portfolio2.0/public/img/bkg.png) center/cover no-repeat fixed`
     }} >
     <div 
        className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center ">
