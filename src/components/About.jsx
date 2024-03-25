@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="About" style={{
       opacity:0.9, 
-      background:`url(../portfolio2.0/public/img/bkg.png) center/cover no-repeat fixed`
+      background:`url(../public/img/bkg.png) center/cover no-repeat fixed`
     }} >
     <div 
        className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center ">
@@ -28,7 +28,7 @@ const About = () => {
         </p> 
         <div className="flex justify-center font-sans">
           <a
-            href="./public/img/cv.docx"
+            href="./portfolio2.0/public/img/cv.docx"
             download="cv.docx"
             className=" border-none rounded-lg text-white bg-green-500 py-2 px-6 
             text-lg shadow-lg transition ease-in-out delay-150 hover:-translate-y-1
@@ -45,7 +45,7 @@ const About = () => {
             borderColor:'green'
           }}
           alt="hero"
-          src="./public/img/aboutpicture.png"
+          src="./portfolio2.0/public/img/aboutpicture.png"
           
         />
       </div>
