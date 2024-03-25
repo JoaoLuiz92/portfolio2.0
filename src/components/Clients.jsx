@@ -25,9 +25,15 @@ const projects = [
     imageSrc: './public/img/Pro.png',
     title: 'Freelancer Desenv. Web',
     description: 'Site em desenvolvimento para empresa, na área de prevenção de incêndio. Frameworks usados: React.js, TailwindCSS',
+  }, 
+   {
+    id: 5,
+    imageSrc: './public/img/chabot.png',
+    title: 'ChatBot API',
+    description: 'Api Rest Desenvolvida para um teste técnico, onde foi feita a integração de uma API com um chatBot(IA), acontecendo uma interação entre usuario e o Bot. Api simples e basica, mais descomplicada possivel.',
   },
 ];
-
+ 
 function Clients({ id, imageSrc, title, description }) {
   const history = useNavigate();
 
@@ -37,6 +43,7 @@ function Clients({ id, imageSrc, title, description }) {
       2: 'https://github.com/JoaoLuiz92/PathSystem',
       3: 'https://github.com/JoaoLuiz92/bechallenge',
       4: 'https://github.com/JoaoLuiz92/ProprinsulPage',
+      5:'https://github.com/JoaoLuiz92/chatBot',
     };
 
     const githubUrl = githubUrls[id];

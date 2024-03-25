@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xwkgbepz");
+  const [state, handleSubmit] = useForm("xeqyrjlj");
   if (state.succeeded) {
-      return <p className='text-[20px] font-serif text-center '
+      return <p className='text-[30px] font-serif text-center '
       style={{
-        color:'rgb(0, 53, 96)'
+        color:'rgb(2, 210, 2)'
       }}
-      > Obrigado pelo seu contato! Proprinsul Extintores</p>;
+      > Obrigado pelo seu contato!</p>;
   }
   return (
       <div style={{
-        background:'rgb(0, 53, 96)'
+        background:'rgb(5, 8, 22)'
       }}>
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto mt-8">
         <div className='mb-4'>
@@ -36,25 +35,7 @@ function ContactForm() {
           field="email"
           errors={state.errors}/>
         </div>
-          
-
-        <div className='mb-4'>
-          <label htmlFor="fone"  className="block text-white font-sans text-sm font-bold mb-2">
-          Telefone :
-        </label>
-        <input
-          id="fone"
-          type="name" 
-          name="Telefone"
-          className='h-[25px] w-full rounded-md'
-          placeholder='  Digite seu telefone'
-        />
-        <ValidationError 
-          prefix="Email" 
-          field="email"
-          errors={state.errors}/>
-        </div>
-          
+   
 
         <label htmlFor="email"  className="block text-white font-sans text-sm font-bold mb-2">
           Email :
@@ -93,8 +74,8 @@ function ContactForm() {
         />
         </div>
         <button type="submit" disabled={state.submitting}
-        className=" text-white p-2 bg-red-800 rounded-md hover:bg-blue-800 focus:outline
-        -none focus:shadow-outline-blue active:bg-blue-800 mb-4 font-normal font-sans"
+        className=" text-white p-2 bg-green-500 rounded-md hover:bg-green-500 focus:outline
+        -none focus:shadow-outline-blue active:bg-green-200 mb-4 font-normal font-sans"
         >
           Enviar Mensagem
         </button>

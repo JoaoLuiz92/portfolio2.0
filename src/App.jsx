@@ -10,7 +10,7 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <main style={{background:'rgb(5, 8, 22)'}} >
+    <main style={{background:'rgb(5, 8, 22)'}} > 
        
               <Nav/>
         <div className="main-content">

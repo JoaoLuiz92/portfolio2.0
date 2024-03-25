@@ -6,7 +6,7 @@ const About = () => {
 
   return (
     <section id="About" style={{
-      opacity:0.9,
+      opacity:0.9, 
       background:`url(../public/img/bkg.png) center/cover no-repeat fixed`
     }} >
     <div 
@@ -18,14 +18,14 @@ const About = () => {
         </h1>
 
        <p className="mb-8 leading-relaxed font-sans text-[20px] text-white">
-       Olá,sou um entusiasta e profissional da 
+       Olá, sou um entusiasta e profissional da 
        área de Tecnologia da Informação. Minha jornada no mundo da tecnologia começou com uma paixão por criar soluções
        inovadoras e eficientes. Atualmente, meu conjunto de habilidades inclui expertise em diversas tecnologias,
        proporcionando uma base sólida para enfrentar desafios e contribuir para projetos inovadores.<br/>
        
        Estou pronto para enfrentar novos desafios e agregar valor aos projetos em que me envolvo. 
        Sinta-se à vontade para explorar meu portfólio e entrar em contato para discutir oportunidades de colaboração!
-        </p>
+        </p> 
         <div className="flex justify-center font-sans">
           <a
             href="./public/img/cv.docx"
