@@ -2,7 +2,7 @@ import Nav from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
 import { ProjectList } from './components/Clients';
-import Email from './components/email';
+import Email from './components/Email';
 import Footer from './components/Footer';
 import Services from './components/Services';
 
