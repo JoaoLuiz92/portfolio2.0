@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="  md:static fixed top-0 z-10 w-full" style={{background:'rgb(5, 8, 22)'}}>
       <div className="container mx-auto flex flex-wrap  flex-col md:flex-row items-center scroll-smooth">
       <a href="#" className="flex items-center rtl:space-x-reverse">
-          <img src='./public/img/logo.png' alt='logo' className='h-28 mr-2'/>
+          <img src='public/img/logo.png' alt='logo' className='h-28 mr-2'/>
           <span className="text-4x1 font-semibold dark:text-white">
             <p className="font-medium text-2x1">
               Desenvolvedor <span className="" style={{color:'rgb(23, 173, 4)'}}>Back-End</span>
