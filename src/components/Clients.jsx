@@ -10,7 +10,7 @@ const projects = [
   },
   {
     id: 2,
-    imageSrc: './public/img/pathsystem.png',
+    imageSrc: 'https://github.com/JoaoLuiz92/portfolio2.0/blob/main/public/img/API.png',
     title: 'Path System',
     description: 'Projeto feito para empresa onde usei, Node.js (express.js e handlebars) e MySQL, onde o Path System ajuda a organização de clientes que fizeram o curso de brigadistas de incêndio (projeto feito especificamente para empresas de prevenção de incêndio).',
   },
