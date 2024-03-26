@@ -45,7 +45,7 @@ const About = () => {
             borderColor:'green'
           }}
           alt="hero"
-          src="./public/img/aboutpicture.png"
+          src="/img/aboutpicture.png"
           
         />
       </div>
