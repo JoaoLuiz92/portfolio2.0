@@ -16,7 +16,7 @@ const projects = [
   },
   {
     id: 3,
-    imageSrc: '/public/img/API.png',
+    imageSrc: './public/img/API.png',
     title: 'API Rest',
     description: 'API desenvolvida com Node.js (Adonis.js), usando banco de dados MySQL. O usuário tinha seu cadastro feito, sua senha era validada e criptografada (hash), depois obtinhamos todos dados feitos, e ele conseguiria vender e comprar itens.',
   },
