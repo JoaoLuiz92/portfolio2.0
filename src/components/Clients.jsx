@@ -4,31 +4,31 @@ import { useNavigate } from 'react-router-dom';
 const projects = [
   {
     id: 1,
-    imageSrc: './public/img/findjob.png',
+    imageSrc: '/img/findjob.png',
     title: 'Find Job',
     description: 'Projeto onde o usuário (candidato ou recrutador) consegue anunciar vagas ou, candidatar-se para mesma. Projeto desenvolvido em HTML e CSS, Node.js e MySQL.',
   },
   {
     id: 2,
-    imageSrc: './public/img/pathsystem.png',
+    imageSrc: '/img/pathsystem.png',
     title: 'Path System',
     description: 'Projeto feito para empresa onde usei, Node.js (express.js e handlebars) e MySQL, onde o Path System ajuda a organização de clientes que fizeram o curso de brigadistas de incêndio (projeto feito especificamente para empresas de prevenção de incêndio).',
   },
   {
     id: 3,
-    imageSrc: './public/img/API.png',
+    imageSrc: '/img/API.png',
     title: 'API Rest',
     description: 'API desenvolvida com Node.js (Adonis.js), usando banco de dados MySQL. O usuário tinha seu cadastro feito, sua senha era validada e criptografada (hash), depois obtinhamos todos dados feitos, e ele conseguiria vender e comprar itens.',
   },
   {
     id: 4,
-    imageSrc: './public/img/Pro.png',
+    imageSrc: '/img/Pro.png',
     title: 'Freelancer Desenv. Web',
     description: 'Site em desenvolvimento para empresa, na área de prevenção de incêndio. Frameworks usados: React.js, TailwindCSS',
   }, 
    {
     id: 5,
-    imageSrc: './public/img/chabot.png',
+    imageSrc: '/img/chabot.png',
     title: 'ChatBot API',
     description: 'Api Rest Desenvolvida para um teste técnico, onde foi feita a integração de uma API com um chatBot(IA), acontecendo uma interação entre usuario e o Bot. Api simples e basica, mais descomplicada possivel.',
   },
