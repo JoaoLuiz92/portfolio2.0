@@ -10,13 +10,13 @@ const projects = [
   },
   {
     id: 2,
-    imageSrc: 'https://github.com/JoaoLuiz92/portfolio2.0/blob/main/public/img/API.png',
+    imageSrc: './public/img/pathsystem.png',
     title: 'Path System',
     description: 'Projeto feito para empresa onde usei, Node.js (express.js e handlebars) e MySQL, onde o Path System ajuda a organização de clientes que fizeram o curso de brigadistas de incêndio (projeto feito especificamente para empresas de prevenção de incêndio).',
   },
   {
     id: 3,
-    imageSrc: './public/img/API.png',
+    imageSrc: 'public/img',
     title: 'API Rest',
     description: 'API desenvolvida com Node.js (Adonis.js), usando banco de dados MySQL. O usuário tinha seu cadastro feito, sua senha era validada e criptografada (hash), depois obtinhamos todos dados feitos, e ele conseguiria vender e comprar itens.',
   },
@@ -43,7 +43,7 @@ function Clients({ id, imageSrc, title, description }) {
       2: 'https://github.com/JoaoLuiz92/PathSystem',
       3: 'https://github.com/JoaoLuiz92/bechallenge',
       4: 'https://github.com/JoaoLuiz92/ProprinsulPage',
-      5:'https://github.com/JoaoLuiz92/chatBot',
+      5: 'https://github.com/JoaoLuiz92/chatBot',
     };
 
     const githubUrl = githubUrls[id];
