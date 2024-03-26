@@ -22,14 +22,14 @@ export default function Navbar() {
           <a href="#About" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
             Sobre Mim
           </a>
-          <a href="#Services" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
+          <a href="#Clients" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
             Projetos
           </a>
-          <a href="#Clients" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
+          <a href="#Services" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
             
             Experiências
           </a>
-          <a href="#Clients" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
+          <a href="#Footer" className="p-2 text-white hover:border-2 hover:p-1 hover:border-solid hover:rounded-lg ">
             
             Contato
           </a>
