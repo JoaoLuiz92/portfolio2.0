@@ -14,7 +14,7 @@ export default function Navbar() {
           <img src='/img/logo.png' alt='logo' className='h-28 mr-2'/>
           <span className="text-4x1 font-semibold dark:text-white">
             <p className="font-medium text-2x1">
-              Desenvolvedor <span className="" style={{color:'rgb(23, 173, 4)'}}>Back-End</span>
+              Desenvolvedor <span className="" style={{color:'rgb(23, 173, 4)'}}>FullStack</span>
             </p>
           </span>
         </a>
