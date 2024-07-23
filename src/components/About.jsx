@@ -28,8 +28,8 @@ const About = () => {
         </p> 
         <div className="flex justify-center font-sans">
           <a
-            href="/img/CVFT.pdf"
-            download="CVFT.pdf"
+            href="/img/CurriculoFT.pdf"
+            download="CurriculoFT.pdf"
             className=" border-none rounded-lg text-white bg-green-500 py-2 px-6 
             text-lg shadow-lg transition ease-in-out delay-150 hover:-translate-y-1
             hover:scale-110 hover:text-black hover:bg-white duration-500">
